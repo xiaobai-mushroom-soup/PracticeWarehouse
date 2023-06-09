@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./lib/react.js" crossorigin></script>
+    <script src="./lib/react-dom.js" crossorigin></script>
+    <script src="./lib/babel.js" crossorigin></script>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // React18之前
+        // ReactDOM.render(<h2>hello react</h2>,document.querySelector('#root'));
+    
+        // React18 之后
+        const root = ReactDOM.createRoot(document.querySelector('#root'));
+        root.render(<h2>hello react</h2>)
+    </script>
+  </body>
+</html>
