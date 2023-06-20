@@ -1,0 +1,11 @@
+/Users/richguo/Desktop/study/PracticeWarehouse/rust/guessing_game/target/debug/deps/getrandom-0e4182a0eaa7b1c0.rmeta: /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util_libc.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/use_file.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/macos.rs
+
+/Users/richguo/Desktop/study/PracticeWarehouse/rust/guessing_game/target/debug/deps/getrandom-0e4182a0eaa7b1c0.d: /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util_libc.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/use_file.rs /Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/macos.rs
+
+/Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs:
+/Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs:
+/Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs:
+/Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs:
+/Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util_libc.rs:
+/Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/use_file.rs:
+/Users/richguo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/macos.rs:
