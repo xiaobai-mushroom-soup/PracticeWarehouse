@@ -1,0 +1,16 @@
+{
+  "name": "Vitest-FUNCTION",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "happy-dom": "^9.20.3",
+    "vitest": "^0.32.2"
+  }
+}
