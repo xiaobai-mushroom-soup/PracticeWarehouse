@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./lib/react.js"></script>
+    <script src="./lib/react-dom.js"></script>
+    <script src="./lib/babel.js"></script>
+
+    <script type="text/babel">
+      const root = ReactDOM.createRoot(document.querySelector("#root"));
+
+      class App extends React.Component {
+        constructor() {
+          super();
+          this.state = {
+            message: "Hello World",
+            students: [
+              { id: 1, name: "dodo" },
+              { id: 2, name: "xiaobai" },
+              { id: 3, name: "mushroom" },
+            ],
+          };
+        }
+        render(h) {
+          const { students } = this.state;
+
+          return (<div>
+            {
+                students.map(item=>{
+                    return <span key={item.id}>{item.name}---</span>
+                })
+            }
+            </div>);
+        }
+      }
+      root.render(<App />);
+    </script>
+  </body>
+</html>

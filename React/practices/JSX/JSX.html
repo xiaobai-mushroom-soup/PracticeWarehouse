@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./lib/react.js"></script>
+    <script src="./lib/react-dom.js"></script>
+    <script src="./lib/babel.js"></script>
+    <script type="text/babel">
+      const root = ReactDOM.createRoot(document.querySelector("#root"));
+
+      class App extends React.Component {
+        constructor() {
+          super();
+          this.state = {
+            num: 123,
+            str: "hello",
+            array: ["Hello", "World", "And", "Hello", "React"],
+
+            und: undefined,
+            nul: null,
+            Boo: true,
+          };
+        }
+
+        render(h) {
+          const { num, str, array } = this.state;
+            const { und, nul, Boo} = this.state;
+          return (
+            <div>
+              {/*注释*/}
+              <h3>{num}</h3>
+              <h3>{str}</h3>
+              <h3>{array}</h3>
+
+              <span>undefined:-{und}</span><br/>
+              <span>null:-{nul}</span><br/>
+              <span>Boo:-{Boo}</span><br/>
+            </div>
+          );
+        }
+      }
+      root.render(<App />);
+    </script>
+  </body>
+</html>
