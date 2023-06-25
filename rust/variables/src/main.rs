@@ -72,22 +72,29 @@ fn main() {
 
     // let testa:[i32;3] = [1,2,3];
 
-    let testb = [1,2,3,4,5,6,7];
-    println!("请输入一个数组下标");
+    // let testb = [1,2,3,4,5,6,7];
+    // println!("请输入一个数组下标");
 
-    let mut index = String::new();
+    // let mut index = String::new();
 
-    io::stdin()
-    .read_line(&mut index)
-    .expect("error");
+    // io::stdin()
+    // .read_line(&mut index)
+    // .expect("error");
 
-    let index: usize = index 
-    .trim()
-    .parse()
-    .expect("err");
+    // let index: usize = index 
+    // .trim()
+    // .parse()
+    // .expect("err");
 
-    let element = testb[index];
+    // let element = testb[index];
 
-    println!("{index}---{element}");
+    // println!("{index}---{element}");
 
+
+    
+    another_function()
+}
+
+fn another_function() {
+    println!("this is another_function");
 }
