@@ -1,0 +1,14 @@
+.nav-bar {
+    display: flex;
+    height: 40px;
+}
+.left , .right{
+    width: 80px;
+    background-color: red ;
+}
+.center{
+    flex:1;
+    background-color: #f80;
+}
+* {padding: 0;
+margin: 0;}
