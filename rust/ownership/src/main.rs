@@ -7,11 +7,26 @@ fn main() {
     // println!("{s}");
     // s.push_str(",hahahah");
     // println!("{s}");
-    let s1 = String::from("test");
-   let s2 =  test(s1);
-    println!("{}sss",s2);
+    let mut s1 = String::from("test");
+    // let s2 =  test(s1);
+    // println!("{}sss",s2);
     
+    calculate_length(&mut s1);
+    // let len = calculate_length(&s1);
+    // println!("{}-is{}",s1,len);
+    let reference_to_nothing = dangle();
 }
-fn test (str:String)-> String{
-     str
+// fn test (str:String)-> String{
+//      str
+// }
+
+fn calculate_length(s:&mut String) {
+    // s.len()
+    s.push_str("123");
+}
+
+fn dangle() -> String{
+    let s = String::from("hello");
+
+    s
 }
