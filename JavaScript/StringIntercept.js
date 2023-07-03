@@ -1,10 +1,10 @@
 
 String.prototype.mySubstr = function (from, to) {
-    let str = '';
-    if (from >= this.length) return '';
-    for (let i = from; i < (to || this.length); i++) {
+    let str = "";
+    if (from >= this.length) return "";
+    for (let i = from; i < (to || this.length); i++) 
         str += this[i]
-    }
+    
     return str
 }
 

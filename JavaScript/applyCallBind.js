@@ -1,9 +1,9 @@
 Function.prototype.myApply = function (_this, args) {
-    if (_this === undefined || _this === null) {
+    if (_this === undefined || _this === null) 
         _this = window;
-    } else {
+     else 
         _this = Object(_this)
-    }
+    
 
     const fn = Symbol("uniqueFn");
     _this[fn] = this;
@@ -13,11 +13,11 @@ Function.prototype.myApply = function (_this, args) {
 }
 
 Function.prototype.muCall = function (_this, ...rest) {
-    if (_this === undefined || _this === null) {
+    if (_this === undefined || _this === null) 
         _this = window;
-    } else {
+     else 
         _this = Object(_this)
-    }
+    
 
     const fn = Symbol("uniqueFn");
     _this[fn] = this;
@@ -27,20 +27,20 @@ Function.prototype.muCall = function (_this, ...rest) {
 }
 
 Function.prototype.myBind = function (_this, ...rest) {
-    if (_this === undefined || _this === null) {
+    if (_this === undefined || _this === null) 
         _this = window;
-    } else {
+     else 
         _this = Object(_this)
-    }
+    
 
     const self = this;
     let fn = function (...innerRest) {
         const isNew = this instanceof fn;
         return self.apply(isNew ? this : Object(_this), rest.concat(innerRest))
     }
-    if (self.prototype) {
+    if (self.prototype) 
         fn.prototype = Object.create(self.prototype)
-    }
+    
 
     return fn;
 }

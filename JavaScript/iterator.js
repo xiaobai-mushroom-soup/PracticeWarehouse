@@ -1,5 +1,5 @@
 let myObj = {
-    name: 'DoDo',
+    name: "DoDo",
     age: 18,
     sex: 1
 }
@@ -9,9 +9,9 @@ Object.defineProperties(myObj, Symbol.iterator ,{
     writable: false,
     configurable: true ,
     value: function (){
-        let _this = this;
-        let idx = 0;
-        let keys = Object.keys(myObj);
+        let _this = this,
+         idx = 0,
+         keys = Object.keys(myObj);
         return {
             next: function(){
                 return {
