@@ -1,0 +1,24 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "快速创建项目",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint *.js",
+    "lint:css": "stylelint *.less",
+    "lint:json": "jsonlint --quiet *.json",
+    "lint:markdown": "markdownlint --config .markdownlint.json *.md",
+    "test": "npm run lint:js & npm run lint:css & npm run lint:json & npm run lint:markdown & mocha tests/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^8.44.0",
+    "jsonlint": "^1.6.2",
+    "markdownlint-cli": "^0.34.0",
+    "mocha": "^10.2.0",
+    "stylelint": "^7.13.0",
+    "stylelint-config-standard": "^16.0.0"
+  }
+}
