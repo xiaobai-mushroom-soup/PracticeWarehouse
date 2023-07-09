@@ -1,17 +1,14 @@
 {
-  "name": "PracticeWarehouse",
+  "name": "mytest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:vitest": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "pnpm": "^7.3.0"
-  },
   "devDependencies": {
     "vitest": "^0.33.0"
   }
