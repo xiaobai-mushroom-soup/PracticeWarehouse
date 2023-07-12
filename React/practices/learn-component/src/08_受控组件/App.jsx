@@ -1,28 +1,24 @@
-import React, { PureComponent } from "react";
+import React, { PureComponent, createRef } from "react";
 
 export class App extends PureComponent {
   constructor() {
     super();
     this.state = {
-      userName: "",
+      intro: "123",
     };
+    this.introRef = createRef()
   }
-  inputChange(event) {
-    console.log(event);
-    console.log(event.target.value);
-    this.setState({
-      userName: event.target.value,
-    });
+  componentDidMount(){
+    // this.introRef.current.addEventListener
+  }
+  handlerClick(e){
+    console.log( this.introRef.current.value)
   }
   render() {
-    const { userName } = this.state;
-    return (
-      <div>
-        <input type="text" value={userName} />
-        <input type="text"  onChange={(e) => this.inputChange(e)} />
-        <span>{userName}</span>
-      </div>
-    );
+    return <div>
+        <input type="text" defaultValue={this.state.intro} ref={this.introRef} />
+    <button onClick={e=>this.handlerClick(e)}>123</button>
+    </div>;
   }
 }
 
